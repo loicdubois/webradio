@@ -7,6 +7,6 @@ rfkill block bluetooth
 #echo disable > /proc/acpi/ibm/bluetooth
 
 # Start webradio app
-odio 
+odio &
 # Make it fullscreen
-wmctrl -r odio -e 0,0,0,1920,1200
+sleep 10s && wmctrl -r odio -e 0,0,0,1920,1200
