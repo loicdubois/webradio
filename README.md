@@ -21,6 +21,7 @@ An Internet radio project running on an bulky outdoor tablet looking for purpose
   1. Deactivate the secure keyring prompt coming at every boot, either by setting a blank password when prompted the first time. Or, if you missed it, in a terminal: `seahorse`. Right click on **Login**, **Change Password** and setup a blank password.
   1. In **Settings > Power**, deactivate **Black Screen** and **Automatic Suspend** to avoid logging out.
   1. Run **Startup Applications** and add a new entry using the _webradio.sh_ script, if necessary do the the same with _screen-setup.sh_
+  1. _Optional:_ In a terminal: `odio`. And you can already setup your library and choose a theme.
 
 * Reboot and enjoy!
 
