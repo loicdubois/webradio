@@ -9,4 +9,4 @@ rfkill block bluetooth
 # Start webradio app
 odio &
 # Make it fullscreen
-sleep 10s && wmctrl -r odio -e 0,0,0,1920,1200
+sleep 20s && wmctrl -r odio -e 0,0,0,1920,1200
