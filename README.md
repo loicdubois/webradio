@@ -19,7 +19,8 @@ An Internet radio project running on an bulky outdoor tablet looking for purpose
 
 * Log in with the new user account
   1. Deactivate the secure keyring prompt coming at every boot, in a terminal: `seahorse`. Right click on **Login**, **Change Password** and setup a blank password.
-  2. Run **Startup Applications** and add a new entry using the _webradio.sh_ script, if necessary do the the same with _screen-setup.sh_
+  2. In **Settings > Power**, deactivate **Black Screen** and **Automatic Suspend** to avoid logging out.
+  3. Run **Startup Applications** and add a new entry using the _webradio.sh_ script, if necessary do the the same with _screen-setup.sh_
 
 * Reboot and enjoy!
 
