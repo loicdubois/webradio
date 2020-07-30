@@ -6,21 +6,21 @@ An Internet radio project running on an bulky outdoor tablet looking for purpose
 
 * Install Ubuntu 20.04
   1. During the installation process, I chose minimal installation (that part is up to you)
-  2. Tick the checkbox to perform updates while installing
-  3. Create an admin account
+  1. Tick the checkbox to perform updates while installing
+  1. Create an admin account
 
 * On the first boot with admin user
-  0. If the touch input and the screen are doing weird stuff, now is the time to figure out what to do and set it properly in _screen-setup.sh_
+  1. If the touch input and the screen are doing weird stuff, now is the time to figure out what to do and set it properly in _screen-setup.sh_
   1. `sudo apt update` and `sudo apt upgrade` (if you haven't done it before)
-  2. Run the setup script _setup.sh_
-  3. In **Settings > Users**, create a new (non-administrator) user with auto-login
-  4. Copy the _webradio.sh_ and the (updated) _screen-setup.sh_ scripts to the home directory of the new user
-  5. Log out
+  1. Run the setup script _setup.sh_
+  1. In **Settings > Users**, create a new (non-administrator) user with auto-login
+  1. Copy the _webradio.sh_ and the (updated) _screen-setup.sh_ scripts to the home directory of the new user
+  1. Log out
 
 * Log in with the new user account
   1. Deactivate the secure keyring prompt coming at every boot, in a terminal: `seahorse`. Right click on **Login**, **Change Password** and setup a blank password.
-  2. In **Settings > Power**, deactivate **Black Screen** and **Automatic Suspend** to avoid logging out.
-  3. Run **Startup Applications** and add a new entry using the _webradio.sh_ script, if necessary do the the same with _screen-setup.sh_
+  1. In **Settings > Power**, deactivate **Black Screen** and **Automatic Suspend** to avoid logging out.
+  1. Run **Startup Applications** and add a new entry using the _webradio.sh_ script, if necessary do the the same with _screen-setup.sh_
 
 * Reboot and enjoy!
 
