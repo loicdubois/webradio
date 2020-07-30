@@ -25,7 +25,7 @@ An Internet radio project running on an bulky outdoor tablet looking for purpose
 * Reboot and enjoy!
 
 ## Usage
-The script is starting the Odio Internet Radio application. For more information, check [odio.io/](https://odio.io/).
+The script is starting the Odio Internet Radio application. For more information, check [odio.io](https://odio.io/).
 
 The _webradio.sh_ script can be modified to run the app(s) you want to. Feel free to use it to run Spotify in the background or any other media service.
 
