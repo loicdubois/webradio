@@ -12,7 +12,7 @@ An Internet radio project running on an bulky outdoor tablet looking for purpose
 * On the first boot with admin user
   0. If the touch input and the screen are doing weird stuff, now is the time to figure out what to do and set it properly in _screen-setup.sh_
   1. `sudo apt update` and `sudo apt upgrade` (if you haven't done it before)
-  2. Run the setup script _setup.sh_*
+  2. Run the setup script _setup.sh_
   3. In **Settings > Users**, create a new (non-administrator) user with auto-login
   4. Copy the _webradio.sh_ and the (updated) _screen-setup.sh_ scripts to the home directory of the new user
   5. Log out
