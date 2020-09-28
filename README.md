@@ -35,6 +35,4 @@ The _webradio.sh_ script can be modified to run the app(s) you want to. Feel fre
 * **Amplifier:** [502C HIFI 2x50W TPA3116](https://www.banggood.com/502C-HIFI-2x50W-TPA3116-AUX+-bluetooth-5_0-HIFI-High-Power-Digital-Amplifier-Stereo-Board-AMP-Amplificador-Home-Theater-p-1582750.html?ID=6278569&cur_warehouse=UK)
 * **Speakers:** Sony 2x50W
 
-## TODO
-- Speakers model
-- Picture of build
+For the picture of the build, please refer to the branch **master**
