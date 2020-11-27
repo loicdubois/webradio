@@ -1,8 +1,8 @@
 # Webradio
 An Internet radio project running on an bulky outdoor tablet looking for purpose.
 Two solutions were tested and evaluated:
-  *. Ubuntu 20.04: see **ubuntu** branch
-  *. Android-x86: see below
+  * Ubuntu 20.04: see **ubuntu** branch
+  * Android-x86: see below
 
 ## Introduction
 The decision to switch to an Android OS was made after testing Ubuntu 20.04 on the tablet for a few days. Overall boot was pretty slow, desktop version is not optimized for these kind of resolutions and touch screens and the app, despite being really beautiful and quite intuitive, stopped working out of nowhere. Moreover Android is offering a lot more possibilities in user management and the Google PlayStore has everything needed.
